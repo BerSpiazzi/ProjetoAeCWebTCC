@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#fundo {
+    background-image: linear-gradient( white, #d48105e3, blue);
+    height: 100%;
+    width: 100%;
+}
+
+#cabecalhologo {
+    height: auto;
+}
+
+#logosudotec {
+    margin-left: 85px;
+}
+
+#cabecalho {
+    height: auto;
+}
+
+#telefone {
+    padding-left: 80px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#instagram,
+#search,
+#facebook {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#cabecalhodireita {}
+
+#restrito {
+    margin-left: 85px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 8px;
+    padding: 10px;
+    width: auto;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#cabdois {
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: rgba(255, 255, 255, 0.616);
+}
+
+#quemsomos {
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+#home {
+    padding-left: 60px;
+    color: black;
+}
+
+#ahome {
+    padding-left: 60px;
+    color: black;
+}
+
+#maker {
+    padding-left: 60px;
+    color: black;
+}
+
+#aprender {
+    padding-left: 60px;
+    color: black;
+}
+
+#carouseltam {
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+#carousel {}
+
+#image1 {}
+
+#image2 {}
+
+#card1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 280px;
+    height: 167px;
+    background: #e4e4e4c4;
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    padding: 20px;
+    position: relative;
+    color: #0058A2;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#card2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 280px;
+    height: 167px;
+    background-color: #e4e4e4c4;
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    padding: 20px;
+    position: relative;
+    color: #0058A2;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#card3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 280px;
+    height: 167px;
+    background-color: #e4e4e4c4;
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    padding: 20px;
+    position: relative;
+    color: #0058A2;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#section-cards {
+    margin-top: -80px;
+}
+
+#cards {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+
+#card1tot {}
+
+#card2tot {}
+
+#card3tot {}
+
+.titulo-pagina {
+    padding-left: 90px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+}
+
+.texto {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    display: block;
+    text-transform: capitalize;
+}
+
+.fundo-maker {
+    background-color: rgba(226, 7, 43, 0.205);
+    padding: 75px;
+}
+
+#logoaec {
+    margin-left: 89px;
+}

@@ -1,0 +1,131 @@
+<body id="fundo">
+    <header id="cabecalho" class="row">
+        <div id="cabecalhologo" class="col-lg-6">
+            <a id="logosudotec" href="http://sudotec.org.br">
+                <img src="http://sudotec.org.br/imgs/logomarca.png?c=4db960b78c33d0a8814729d3499bfbc6" class="img-responsive">
+            </a>
+        </div>
+        <div id="cabecalhodireita" class="row col-lg-6">
+            <div id="telefone">
+                <b>(46) 3581-1853</b>
+            </div>
+            <div id="facebook">
+                <a href="https://www.facebook.com/sudotec/">
+                    <i class="bi bi-facebook "></i>
+                </a>
+            </div>
+            <div id="instagram">
+                <a href="https://www.instagram.com/sudotec/">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+
+            <div class="btn" type="button" id="restrito" data-toggle="modal" data-target="#modal">
+                <a>Área Restrita</a>
+            </div>
+        </div>
+    </header>
+    <div class="row" id="cabdois">
+        <nav id="quemsomos" class="navbar navbar-expand-lg navbar-light">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <div>
+                        <li class="nav-item ">
+                            <a id="ahome" class="nav-link" href="#">Home</a>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="nav-item">
+                            <a id="home" class="nav-link" href="#">Quem Somos</a>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="nav-item">
+                            <a id="maker" class="nav-link" href="#">Maker Space</a>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="nav-item">
+                            <a id="aprender" class="nav-link" href="#">Aprender & Crescer</a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="row" id="carousel">
+        <ngb-carousel id="carouseltam" *ngIf="images" style="margin-top: 10px;">
+            <ng-template ngbSlide>
+                <div id="image1" class="picsum-img-wrapper">
+                    <img class="img-fluid" [src]="images[0]" alt="Random first slide">
+                </div>
+                <div class="carousel-caption">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div id="image2" class="picsum-img-wrapper">
+                    <img class="img-fluid" [src]="images[1]" alt="Random second slide">
+                </div>
+                <div class="carousel-caption">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+    <section class="section-cards" id="section-cards">
+        <div class="row col-lg-12" id="cards">
+            <div class="row">
+                <div class="col-lg-4" id="card1tot">
+                    <div id="card1">
+                        <span>+250</span>
+                        <br> Pessoas Incluídas
+                        <br> Anualmente
+                        <div class="faixa-1"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4" id="card2tot">
+                    <div id="card2">
+                        <span>+1350</span>
+                        <br> Jovens
+                        <br> Beneficiados
+                        <div class="faixa-2"></div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4" id="card3tot">
+                    <div id="card3">
+                        <span>+3</span>
+                        <br> Empresas
+                        <br> Incubadas
+                        <div class="faixa-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fundo-maker">
+        <div class="titulo-pagina">
+            <p>QUEM SOMOS</p>
+        </div>
+        <div class="texto">
+            <b>Somos uma entidade sem fins lucrativos, reconhecida como OSCIP desde 2005. Temos por finalidade contribuir para o aperfeiçoamento e o progresso da sociedade através da tecnologia.</b>
+        </div>
+
+        <div class="titulo-pagina">
+            <p>MAKER SPACE</p>
+        </div>
+        <div class="texto">
+            <b>O “Espaço do Fazer” é uma tendência mundial e visa estimular os participantes ao compartilhamento dos equipamentos, do espaço, das ideias e o despertar a parte do empreendedor de cada um. É o faça você mesmo, em que hoje são muitas iniciativas em nível de mundo e de Brasil, e cada uma adaptada para a sua realidade, trabalha com a parte lúdica, a criação e o despertar para a inovação, repassando a ideia principal do que é a robótica</b>
+        </div>
+
+        <div class="titulo-pagina">
+            <p>APRENDER & </p>
+            <p>CRESCER</p>
+        </div>
+        <div>
+            <img id="logoaec" src="http://sudotec.org.br/imgs/logo-aec.png?c=4db960b78c33d0a8814729d3499bfbc6?date=2021104419" alt="">
+            <b class="texto">O Projeto Aprender & Crescer foi criado pela Sudotec em 2006 e desde então vem atuando como um agente de qualificação profissional na região Sudoeste do Paraná. Desde então, foram realizadas quinze edições somente na cidade de Dois Vizinhos e outras seis em outros municípios paranaense, beneficiando mais de 1200 jovens.</b>
+        </div>
+    </section>
+</body>
