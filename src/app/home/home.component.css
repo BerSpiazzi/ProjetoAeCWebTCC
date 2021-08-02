@@ -1,4 +1,5 @@
 * {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     border: 0;
@@ -6,6 +7,7 @@
 }
 
 #fundo {
+    scroll-behavior: smooth;
     background-image: linear-gradient( white, #d48105e3, blue);
     height: 100%;
     width: 100%;
@@ -179,7 +181,7 @@
     padding-bottom: 50px;
     font-size: 14px;
     font-weight: bold;
-    color: #000000;
+    color: #ffffff;
     position: relative;
     display: block;
     text-transform: capitalize;
@@ -192,4 +194,19 @@
 
 #logoaec {
     margin-left: 89px;
+}
+
+#apec {
+    scroll-behavior: smooth;
+    color: red;
+}
+
+#maker-space {
+    scroll-behavior: smooth;
+    color: darkslategray;
+}
+
+#queme {
+    scroll-behavior: smooth;
+    color: black;
 }

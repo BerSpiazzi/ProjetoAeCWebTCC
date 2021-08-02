@@ -5,14 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { ModalComponent } from './modal/modal.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ModalComponent
+    
   ],
   imports: [
     BrowserModule,
